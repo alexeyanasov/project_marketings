@@ -772,7 +772,8 @@ ul.footer__social-list {
   .about__title,
   .expertise__title,
   .team__title,
-  .pricing__title {
+  .pricing__title,
+  .connection__title {
     margin-bottom: 50px;
   }
 
@@ -781,7 +782,8 @@ ul.footer__social-list {
   .portfolio,
   .slider-blog,
   .team,
-  .pricing {
+  .pricing,
+  .connection {
     padding: 75px 0;
   }
 
@@ -846,6 +848,14 @@ ul.footer__social-list {
 
   .portfolio__filter-btn {
     margin-top: 40px;
+  }
+
+  .connection {
+    background-image: none;
+  }
+
+  .form {
+    max-width: 100%;
   }
 }
 
@@ -988,7 +998,7 @@ ul.footer__social-list {
     flex-wrap: wrap;
   }
 
-  .clients__list li{
+  .clients__list li {
     margin-bottom: 25px;
   }
 }
