@@ -799,7 +799,8 @@ ul.footer__social-list {
   }
 
   .team__items,
-  .pricing__items {
+  .pricing__items,
+  .clients__list {
     column-gap: 20px;
   }
 }
@@ -980,6 +981,15 @@ ul.footer__social-list {
     margin: 0 auto 25px;
     max-width: 500px;
     width: 100%;
+  }
+
+  .clients__list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .clients__list li{
+    margin-bottom: 25px;
   }
 }
 
