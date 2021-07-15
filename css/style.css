@@ -857,6 +857,24 @@ ul.footer__social-list {
   .form {
     max-width: 100%;
   }
+
+  .footer__top {
+    padding-top: 75px;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  ul.footer__social-list {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .footer__social-item {
+    width: 33.333%;
+    margin-bottom: 25px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1032,6 +1050,10 @@ ul.footer__social-list {
   .title {
     font-size: 28px;
     line-height: 42px;
+  }
+
+  .footer__social-item {
+    width: 50%;
   }
 }
 
